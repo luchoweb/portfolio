@@ -2,7 +2,7 @@ import './styles.scss'
 
 function Header() {
   return (
-    <header className="pt-3 pb-3 mb-3">
+    <header className="pt-3 pb-3 mb-0 mb-md-3">
         <div className='container'>
           <div className="row">
             <div className="col-6">
