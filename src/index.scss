@@ -1,0 +1,19 @@
+:root {
+  --color-dark: #222222;
+  --color-blue-dark: #242936;
+  --color-light: #f7f7f7;
+  --font-family: 'Nunito', sans-serif;
+  --fw-normal: 400;
+  --fw-bold: 700;
+}
+
+html, body {
+  background-color: var(--color-blue-dark);
+  color: var(--color-light);
+  font-family: var(--font-family);
+  font-weight: var(--fw-normal);
+}
+
+h1, h2, h3, h4, h5, b, strong {
+  font-weight: var(--fw-bold);
+}
