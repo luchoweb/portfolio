@@ -1,5 +1,24 @@
 header {
+  background-color: var(--color-blue-dark);
+  position: sticky;
+  top: 0;
+  width: 100%;
+
   .title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  .menu {
+    &__link {
+      color: var(--color-light);
+      font-size: 1.2rem;
+      text-decoration: none;
+      transition: all 200ms ease-in-out;
+
+      &:hover, &:focus, &:active {
+        color: var(--color-light);
+        opacity: 0.7;
+      }
+    }
   }
 }
