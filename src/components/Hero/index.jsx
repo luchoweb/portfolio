@@ -21,7 +21,7 @@ function Hero() {
             <ul className="contact list-unstyled m-0 mb-2 p-0">
               <li className="address mb-2">
                 <i className="bi bi-geo-alt-fill me-2"></i>
-                Barranquilla, Colombia
+                Colombia
               </li>
               <li className="phone mb-2">
                 <i className="bi bi-telephone-inbound-fill me-2"></i>
@@ -43,4 +43,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Hero

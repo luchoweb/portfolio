@@ -1,10 +1,11 @@
-import { Header, Hero } from './components'
+import { Header, Hero, Companies } from './components'
 
 function App() {
   return (
     <div className="Page">
       <Header />
       <Hero />
+      <Companies />
     </div>
   )
 }
