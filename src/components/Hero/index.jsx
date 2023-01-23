@@ -10,7 +10,7 @@ function Hero() {
             <img src={Memoji} alt="Memoji" />
           </div>
           <div className="col-12 col-lg-6">
-            <p className="badge bg-success mt-0 mb-3">
+            <p className="badge bg-success ps-3 pe-3 pt-2 pb-2 mt-0 mb-3">
               Hello there!
             </p>
 
@@ -34,6 +34,29 @@ function Hero() {
               <li className="website">
                 <i className="bi bi-window-sidebar me-2"></i>
                 luchoweb.dev
+              </li>
+            </ul>
+
+            <ul className="social-list list-unstyled m-0 mt-3 p-0 d-flex align-items-center gap-3">
+              <li className='item'>
+                <a href="https://github.com/luchoweb" target="_blank" rel='noopener'>
+                  <i className="bi bi-github"></i>
+                </a>
+              </li>
+              <li className='item'>
+                <a href="https://www.linkedin.com/in/luchowebdev" target="_blank" rel='noopener'>
+                  <i className="bi bi-linkedin"></i>
+                </a>
+              </li>
+              <li className='item'>
+                <a href="https://youtube.com/hablemosdecodigo" target="_blank" rel='noopener'>
+                  <i className="bi bi-youtube"></i>
+                </a>
+              </li>
+              <li className='item'>
+                <a href="https://wa.me/573246802829?text=Hi%20Lucho%20Web!" target="_blank" rel='noopener'>
+                  <i className="bi bi-whatsapp"></i>
+                </a>
               </li>
             </ul>
           </div>

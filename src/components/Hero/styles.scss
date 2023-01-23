@@ -2,4 +2,28 @@
   .badge {
     font-size: 1rem;
   }
+
+  .social-list {
+    .item {
+      a {
+        border: 1px solid var(--color-gray);
+        border-radius: 50%;
+        color: var(--color-light);
+        display: block;
+        height: 42px;
+        line-height: 42px;
+        text-align: center;
+        transition: opacity 200ms ease-in-out;
+        width: 42px;
+
+        i {
+          font-size: 1.3rem;
+        }
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
 }
