@@ -6,10 +6,10 @@ function Hero() {
     <section className='hero mt-4'>
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-6 text-left text-md-center order-2 order-md-1">
+          <div className="col-5 col-md-6 text-left text-md-center order-2 order-md-1">
             <img src={Memoji} alt="Memoji" className='memoji' />
           </div>
-          <div className="col-6 mb-4 mb-md-0 order-1 order-md-2">
+          <div className="col-7 col-md-6 mb-4 mb-md-0 order-1 order-md-2">
             <p className="badge bg-success ps-3 pe-3 pt-2 pb-2 mt-0 mb-3">
               Hello there!
             </p>
