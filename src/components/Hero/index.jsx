@@ -3,7 +3,7 @@ import './styles.scss'
 
 function Hero() {
   return (
-    <section className='hero'>
+    <section className='hero mt-4'>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 col-md-6 text-left text-md-center order-2 order-md-1">
