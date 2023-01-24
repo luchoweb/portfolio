@@ -6,7 +6,7 @@ function Hero() {
     <section className='hero mt-4'>
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-5 col-md-6 text-left text-md-center order-2 order-md-1">
+          <div className="col-5 col-md-6 text-start text-md-end order-2 order-md-1">
             <img src={Memoji} alt="Memoji" className='memoji' />
           </div>
           <div className="col-7 col-md-6 mb-4 mb-md-0 order-1 order-md-2">
